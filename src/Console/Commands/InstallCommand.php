@@ -21,7 +21,7 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Данная команда установит все необходимые компоненты пакета (Управление темами).';
+    protected $description = 'Данная команда установит все необходимые компоненты пакета messages.';
 
     /**
      * Execute the console command.

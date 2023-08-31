@@ -41,6 +41,10 @@ class MessagesServiceProvider extends ServiceProvider
             $this->commands([
                 InstallCommand::class,
             ]);
+        } else {
+            $this->commands([
+                InstallCommand::class,
+            ]);
         }
 
 
